@@ -1,0 +1,27 @@
+
+.containerrrr{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 80px;
+    box-shadow: 0 0 80px black;
+    background-color: black;
+}
+.mop{
+    transform: translateY(-90%);
+    color: white;
+}
+
+@media screen and (max-width:768px){
+    .containerrrr{
+        font-size: 40%;
+        max-width: 10%;
+        transform: translateX(50%);
+    }
+    .mop{
+        max-width: 40%;
+    }
+}

@@ -1,0 +1,95 @@
+.topp{
+    max-width: 100%;
+    width: 100vw;
+    display: flex;
+    padding: 1vmax 3vmax;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+}
+.topp.scrolled {
+    background-color: hsl(219, 48%, 8%) /* Change the background color when scrolled */
+  }
+.topp.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box-shadow for visual effect */
+  }
+.l{
+    height: 5vmax;
+    width: 5vmax;
+    margin-right: 70vmax;
+    margin-top: 1vmax;
+    transition: transform 0.3s ease;
+    border-radius: 2px;
+}
+
+.l:hover{
+    background-color: tomato;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+.nav{
+    display: flex;
+    padding: 1vmax 1vmax;
+    margin-right: 5.5%;
+    background-color: hsl(250, 100%, 75%);
+    border-radius: 1%;
+    position: absolute;
+    margin-top: 1.5%;
+    box-shadow: 0 0 10px hsl(250, 100%, 75%);
+    border-radius: 10px;
+}
+
+.o{
+    padding: 0vmax 3vmax;
+    font-weight: bold;
+}
+.h{
+    padding: 0vmax 3vmax;
+    font-weight: bold;
+}
+.o:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.s{
+    padding: 0vmax 3vmax;
+    font-weight: bold;
+}
+.s:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.t{
+    padding: 0vmax 3vmax;
+    font-weight: bold;
+}
+.t:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.f{
+    padding: 0vmax 3vmax;
+    font-weight: bold;
+}
+.f:hover{
+    color: tomato;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+@media screen and (max-width: 768px){
+    .topp{
+        font-size: 20%;
+        transform: translateX(-1.8%);
+    }
+    
+}

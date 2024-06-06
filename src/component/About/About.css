@@ -1,0 +1,215 @@
+.intervetion1{
+    background-color: hsl(219, 48%, 8%);
+    min-height: 100vh;
+    max-width: 100%;
+    width: 100vw;
+  
+}
+.inter121{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 90vh;
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    padding: 2vmax;
+    box-sizing: border-box;
+    border-radius: 1%;
+    transform: translateX(30%) 
+}
+
+.inter212{
+    width: 60%;
+    min-height: 50vh;
+    background-color: white;
+    box-shadow:0 0 15px rgba(0,0,0,0.281);
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 2vmax;
+    display: flex;
+    animation: aboutAnnimation 1s ease-in forwards;
+    transform: translateX(50%) translateY(-30%);
+    border-radius: 1%;
+}
+.intervetion1>h2{
+    text-align: center;
+    color: white;
+    padding: 2vmax 2vmax;
+}
+
+.inter212>p{
+    letter-spacing: 3px;
+    padding: 2vmax 2vmax;
+    text-align: start;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inter412>p{
+    display: flex;
+    letter-spacing: 3px;
+    padding: 2vmax 2vmax;
+    text-align: start;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inter512>p{
+    letter-spacing: 3px;
+    padding: 2vmax 2vmax;
+    text-align: start;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inter612>p{
+    letter-spacing: 3px;
+    padding: 2vmax 2vmax;
+    text-align: start;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inter312{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 102vh;
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    padding: 2vmax;
+    box-sizing: border-box;
+    border-radius: 1%;
+    transform: translateX(30%) translateY(0%);
+}
+
+.inter412{
+    width: 60%;
+    min-height: 50vh;
+    background-color: white;
+    box-shadow:0 0 15px rgba(0,0,0,0.281);
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 2vmax;
+    display: flex;
+    animation: aboutAnnimation 1s ease-in forwards;
+    transform: translateX(50%) translateY(155%);
+    border-radius: 1%;
+}
+.inter312>h2{
+    transform: translateX(-325%);
+    font-size: 200%;
+    color: #ef233c;
+    background-color:hsl(219, 48%, 8%);
+}
+
+.inter512{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 90vh;
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    padding: 2vmax;
+    box-sizing: border-box;
+    border-radius: 1%;
+    transform: translateX(30%) translateY(0%);
+}
+
+.inter612{
+    width: 60%;
+    min-height: 60vh;
+    background-color: white;
+    box-shadow:0 0 15px rgba(0,0,0,0.281);
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 2vmax;
+    display: flex;
+    animation: aboutAnnimation 1s ease-in forwards;
+    transform: translateX(50%) translateY(295%);
+    border-radius: 1%;
+}
+.inter512>h2{
+    transform: translateX(-235%);
+    font-size: 200%;
+    color: #ef233c;
+    background-color:hsl(219, 48%, 8%);
+  
+}
+.ad12{
+    text-decoration: underline;
+}
+.inter121>h2{
+    transform: translateX(-400%);
+    font-size: 200%;
+    color: #ef233c;
+    background-color:hsl(219, 48%, 8%);
+  
+}
+@media screen and (max-width:768px){
+    .intervetion1{
+     font-size: 20%;
+     max-width: 20%;
+    }
+    .inter121{
+        width: 90%;
+        transform: translateX(6.1%) translateY(20%);
+        height: 75%;
+    }
+    .inter212{
+        transform: translateX(0%) translateY(-30%);
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .inter123{
+      max-width: 45%;
+    }
+    .inter121>h2{
+        background-color: white;
+        font-size: 110%;
+        transform: translateY(9%) translateX(-400%);
+    }
+    .inter312{
+        width: 90%;
+        transform: translateX(6.1%);
+        height: 75%;
+    }
+    .inter412{
+        transform: translateX(0%) translateY(130%);
+        width: 100%;
+        flex-direction: column;
+        
+        
+    }
+    
+    .inter312>h2{
+        background-color: white;
+        font-size: 110%;
+        transform: translateY(9%) translateX(-350%);
+    }
+    .inter512{
+        width: 90%;
+        transform: translateX(6.1%);
+        height: 90%;
+    }
+    .inter612{
+        transform: translateX(0%) translateY(295%);
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    
+    .inter512>h2{
+        background-color: white;
+        font-size: 110%;
+        transform: translateY(6%) translateX(-265%);
+    }
+}
